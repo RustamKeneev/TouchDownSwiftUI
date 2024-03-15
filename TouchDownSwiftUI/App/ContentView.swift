@@ -36,6 +36,8 @@ struct ContentView: View {
                             }//: LOOP
                         })//: GRID
                         .padding(16)
+                        TitleView(title: "Brands")
+                        BrandGridView()
                         FooterView()
                             .padding(.horizontal)
                     }//: VSTACK
